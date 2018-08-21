@@ -60,7 +60,7 @@ class InstallTaxSampleData implements DataPatchInterface, PatchVersionInterface
      */
     public static function getVersion()
     {
-        return '2.0.0';
+        return '';
     }
 
     /**
