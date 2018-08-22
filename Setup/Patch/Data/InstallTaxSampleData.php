@@ -8,13 +8,12 @@ namespace Magento\TaxSampleDataVenia\Setup\Patch\Data;
 
 use Magento\Framework\Setup;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
-use Magento\Framework\Setup\Patch\PatchVersionInterface;
 
 /**
  * Class InstallTaxSampleData
  * @package Magento\TaxSampleDataVenia\Setup\Patch\Data
  */
-class InstallTaxSampleData implements DataPatchInterface, PatchVersionInterface
+class InstallTaxSampleData implements DataPatchInterface
 {
     /**
      * @var Setup\SampleData\Executor
@@ -55,13 +54,6 @@ class InstallTaxSampleData implements DataPatchInterface, PatchVersionInterface
         return [];
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public static function getVersion()
-    {
-        return '';
-    }
 
     /**
      * {@inheritdoc}
