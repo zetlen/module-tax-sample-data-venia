@@ -1,1 +1,4 @@
-Magento_TaxSampleDataVenia module consists of installation scripts to install tax rules and rates for the Venia sample data.
+## Magento_TaxSampleDataVenia 
+Sample data for Magento PWA
+
+Add tax rates and rules for MI, CA and NY
